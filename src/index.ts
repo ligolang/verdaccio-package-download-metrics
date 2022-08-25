@@ -41,13 +41,13 @@ class VerdaccioMiddlewarePlugin
   ): void {
 
     if (!this.downloadMetricsPath) {
-      debug("downloadMetricsPath is missing in the config. Using the default ${defaultDownloadMetricsPath}");
+      debug(`downloadMetricsPath is missing in the config. Using the default ${defaultDownloadMetricsPath}`);
       this.downloadMetricsPath = defaultDownloadMetricsPath;
       return;
     }
 
     if (!this.tarballPath) {
-      debug("tarballPath is missing in the config. Using the default ${defaultTarballPath}");
+      debug(`tarballPath is missing in the config. Using the default ${defaultTarballPath}`);
       this.tarballPath = defaultTarballPath;
       return;
     }

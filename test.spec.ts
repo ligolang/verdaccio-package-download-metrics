@@ -159,7 +159,7 @@ describe("Install and check if download metrics are available", () => {
         level: "http",
       },
       middlewares: {
-        "ligo-registry-download-metrics": {
+        "package-download-metrics": {
           enabled: true,
           downloadMetricsPath: "/-/api/downloads/:pkg",
           tarballPath: "/:pkg/-/:filename",
@@ -233,7 +233,7 @@ describe("Install and check if download metrics are available", () => {
         level: "http",
       },
       middlewares: {
-        "ligo-registry-download-metrics": {
+        "package-download-metrics": {
           enabled: true,
           // downloadMetricsPath
           // tarballPath
@@ -310,7 +310,7 @@ describe("Install and check if download metrics are available", () => {
         level: "http",
       },
       middlewares: {
-        "ligo-registry-download-metrics": {
+        "package-download-metrics": {
           enabled: true,
           // downloadMetricsPath
           // tarballPath
