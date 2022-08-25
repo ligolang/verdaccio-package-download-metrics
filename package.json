@@ -1,5 +1,5 @@
 {
-  "name": "verdaccio-ligo-registry-download-metrics",
+  "name": "verdaccio-package-download-metrics",
   "version": "0.0.1",
   "description": "Store download metrics of a package",
   "main": "lib/src/index.js",
