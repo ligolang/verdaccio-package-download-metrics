@@ -1,0 +1,45 @@
+{
+  "name": "ligo-list-helpers",
+  "versions": {
+    "1.0.3": {
+      "name": "ligo-list-helpers",
+      "version": "1.0.3",
+      "description": "List helpers for LIGO",
+      "scripts": {
+        "test": "ligo run test list.test.mligo"
+      },
+      "_id": "ligo-list-helpers@1.0.3",
+      "_integrity": "sha512-/W3OJOGbJSoQfQvPeBbvZFoXNI+kkklnjoXVp7CB0Vg2FOOCCKy5FvgCCLa24Yg48+IsthB6jULMbsBnFgc6UQ==",
+      "_resolved": "{{TARBALL_PATH}}",
+      "_from": "file:ligo-list-helpers-1.0.3.tgz",
+      "_nodeVersion": "18.2.0",
+      "_npmVersion": "8.18.0",
+      "dist": {
+        "integrity": "sha512-/W3OJOGbJSoQfQvPeBbvZFoXNI+kkklnjoXVp7CB0Vg2FOOCCKy5FvgCCLa24Yg48+IsthB6jULMbsBnFgc6UQ==",
+        "shasum": "29afc6fbd23a8535eac59c3f45f76587d54d7320",
+        "tarball": "http://{{VERDACCIO_LISTEN_CONFIG}}/ligo-list-helpers/-/ligo-list-helpers-1.0.3.tgz"
+      },
+      "contributors": []
+    }
+  },
+  "time": {
+    "modified": "2022-08-23T08:59:39.872Z",
+    "created": "2022-08-23T08:59:39.872Z",
+    "1.0.3": "2022-08-23T08:59:39.872Z"
+  },
+  "users": {},
+  "dist-tags": {
+    "latest": "1.0.3"
+  },
+  "_uplinks": {},
+  "_distfiles": {},
+  "_attachments": {
+    "ligo-list-helpers-1.0.3.tgz": {
+      "shasum": "29afc6fbd23a8535eac59c3f45f76587d54d7320",
+      "version": "1.0.3"
+    }
+  },
+  "_rev": "",
+  "_id": "ligo-list-helpers",
+  "readme": "ERROR: No README data found!"
+}

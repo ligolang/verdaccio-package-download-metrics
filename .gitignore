@@ -1,0 +1,12 @@
+npm-debug.log*
+node_modules
+*~
+.log
+# verdaccio
+storage
+
+# esy
+_esy
+
+# test setup
+coverage
