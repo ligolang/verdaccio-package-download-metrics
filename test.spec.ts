@@ -24,7 +24,7 @@ function runVerdaccioServer(config): Promise<{ webServer: any; addrs: any }> {
 function fetchDownloadMetrics(pkg, port): Promise<number> {
   return new Promise((resolve, reject) => {
     request.get(
-      `/-/api/downloads/${pkg}`,
+      `/-/api/metrics/downloads/${pkg}`,
       { baseUrl: `http://${host}:${port}/` },
       function (error, response, body) {
         if (error) {

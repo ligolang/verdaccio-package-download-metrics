@@ -1,3 +1,4 @@
+// @ts-nocheck
 /**
  * Returns the week number for timestamp date.  dowOffset is the day of week the week
  * "starts" on for your locale - it can be from 0 to 6. If dowOffset is 1 (Monday),
@@ -5,7 +6,7 @@
  * @param int dowOffset
  * @return int
  */
-export function getWeek(timestamp, dowOffset) {
+export function getWeek(timestamp, dowOffset?) {
   dowOffset = typeof dowOffset == 'number' ? dowOffset : 0; //default dowOffset to zero
   var newYear = new Date(timestamp.getFullYear(), 0, 1);
   var day = newYear.getDay() - dowOffset; //the day of week the year begins on
