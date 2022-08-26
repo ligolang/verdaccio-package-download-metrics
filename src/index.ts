@@ -102,7 +102,7 @@ class VerdaccioMiddlewarePlugin
         // res.setHeader('X-Verdaccio-Token-Plugin', encryptedString.toString());
         let { pkg } = request.params;
         let downloads: Array<downloadEntry> = db[pkg] || [];
-        downloads.push({ time: Date.now() });
+        downloads.unshift({ time: Date.now() });
         db[pkg] = downloads;
         fs.writeFileSync(dbFilePath, JSON.stringify(db, null, 2));
         debug(`Wrote to ${dbFilePath}`);
