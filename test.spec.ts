@@ -161,7 +161,7 @@ describe("Install and check if download metrics are available", () => {
       middlewares: {
         "package-download-metrics": {
           enabled: true,
-          downloadMetricsPath: "/-/api/downloads/:pkg",
+          downloadMetricsPath: "/-/api/metrics",
           tarballPath: "/:pkg/-/:filename",
         },
       },
