@@ -20,7 +20,7 @@ jobs:
       - uses: actions/setup-node@2fddd8803e2f5c9604345a0b591c3020ee971a93 # tag=v3
         with:
           node-version: ${{ matrix.node-version }}
-      - run: npm i -g pnpm
+      - run: npm i -g pnpm esy@beta
       - run: pnpm install
       - run: pnpm run build
       - name: Download Ligo binary
