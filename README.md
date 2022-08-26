@@ -1,6 +1,6 @@
-# verdaccio-ligo-registry-download-metrics
+# verdaccio-download-metrics
 
-> Store download metrics of a package
+> Store download metrics of a package. Originally written for Ligo registry
 
 ---
 
